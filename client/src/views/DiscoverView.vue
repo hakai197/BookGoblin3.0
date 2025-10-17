@@ -74,7 +74,7 @@ import booksService from '../services/books'
 import userBooksService from '../services/userBooks'
 
 export default {
-  name: 'Discover',
+  name: 'DiscoverView',
   components: {
     BookCard,
     LoadingSpinner

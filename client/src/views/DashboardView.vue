@@ -80,7 +80,7 @@ import userBooksService from '../services/userBooks'
 import readingLogsService from '../services/readingLogs'
 
 export default {
-  name: 'Dashboard',
+  name: 'DashboardView',
   data() {
     return {
       stats: {},

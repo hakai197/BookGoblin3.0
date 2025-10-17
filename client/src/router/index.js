@@ -1,12 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/Home.vue'
-import Login from '../views/Login.vue'
-import Register from '../views/Register.vue'
-import Dashboard from '../views/Dashboard.vue'
-import Library from '../views/Library.vue'
+import Home from '../views/HomeView.vue'
+import Login from '../views/LoginView.vue'
+import Register from '../views/RegisterView.vue'
+import Dashboard from '../views/DashboardView.vue'
+import Library from '../views/LibraryView.vue'
 import ReadingLog from '../views/ReadingLog.vue'
-import Discover from '../views/Discover.vue'
-import Account from '../views/Account.vue'
+import Discover from '../views/DiscoverView.vue'
+import Account from '../views/AccountView.vue'
 
 const routes = [
   {

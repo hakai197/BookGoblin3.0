@@ -9,7 +9,7 @@
         <div class="account-sidebar">
           <div class="account-profile card">
             <div class="profile-avatar">
-              <img src="/default-avatar.png" alt="User Avatar" />
+              <img src="/img/avatar.png" alt="User Avatar" />
             </div>
             <h2>{{ $store.state.user.username }}</h2>
             <p class="user-role">{{ $store.state.user.role }}</p>
@@ -201,7 +201,7 @@
 import userBooksService from '../services/userBooks'
 
 export default {
-  name: 'Account',
+  name: 'AccountView',
   data() {
     return {
       activeTab: 'profile',
